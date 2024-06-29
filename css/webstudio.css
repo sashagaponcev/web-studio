@@ -1,0 +1,275 @@
+:root {
+    --accent-color-gray: #F5F4FA;
+    --accent-color-blue: #2196F3;
+    --accent-color-dark: #2F303A;
+    --accent-color-darktext: #212121;
+    --accent-color-whitetext: #FFFFFF;
+    --accent-color-graytext: #757575;
+    --accent-color-icon-grey: #AFB1B8;
+}
+
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-navigation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.header-link-studio {
+    color: var(--accent-color-blue);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header-link {
+    color: var(--accent-color-darktext);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header-link-mail {
+    color: var(--accent-color-blue);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header-link-tel {
+    color: var(--accent-color-graytext);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.efection-solutions-title {
+    color: var(--accent-color-whitetext);
+    text-transform: uppercase;
+    background-color: var(--accent-color-dark);
+    line-height: 1.36;
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.efection-solutions-button {
+    background-color: var(--accent-color-blue);
+    color: var(--accent-color-whitetext);
+    border: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.table-text-title {
+    color: var(--accent-color-darktext);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.table-text {
+    color: var(--accent-color-graytext);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.what-we-are-doing-title {
+    color: var(--accent-color-darktext);
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.our-team-title {
+    color: var(--accent-color-darktext);
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.our-team-name {
+    color: var(--accent-color-darktext);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.our-team-job {
+    color: var(--accent-color-graytext);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-house-address {
+    color: var(--accent-color-whitetext);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer-mail {
+    color: var(--accent-color-whitetext);
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.6;
+    line-height: 1.71;
+}
+
+.footer-phone-number {
+    color: var(--accent-color-whitetext);
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.6;
+    line-height: 1.71;
+}
+
+.footer {
+    background-color: var(--accent-color-dark);
+}
+
+.our-team-section {
+    background-color: var(--accent-color-gray);
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-right: 63px;
+}
+
+.header-link {
+    padding-right: 50px;
+}
+
+.header-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-link-mail {
+    padding-right: 50px;
+}
+
+#contact {
+    padding-right: 304px;
+}
+
+.efection-solutions {
+    padding: 200px 0;
+}
+
+.efection-solutions-button {
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+}
+
+.table-text-section li {
+    width: 250px;
+    margin: 94px 0;
+}
+
+.table-text-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-we-are-doing-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 94px;
+}
+
+.our-team-section {
+    padding: 94px 0;
+}
+
+.our-team-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    padding: 60px 0;
+}
+
+.efection-solutions {
+    background-color: var(--accent-color-dark);
+}
+
+.our-team-figure {
+    margin: 0;
+    width: 270px;
+    text-align: center;
+    background-color: var(--accent-color-whitetext);
+}
+
+.our-team-figure img {
+    width: 100%;
+}
+
+.our-team-job {
+    padding-bottom: 30px;
+}
+
+.our-team-name {
+    padding-top: 30px;
+    margin: 0;
+}
+
+.our-team-title {
+    text-align: center;
+}
+
+.efection-solutions-title {
+    text-align: center;
+}
+
+.what-we-are-doing-title {
+    text-align: center;
+}
+
+.efection-solutions-button {
+    margin: 0 auto;
+    display: block;
+}
+
+.regular-costumers-img {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    height: 92px;
+    fill: var(--accent-color-icon-grey);
+}
+
+.regular-customers {
+    background-color: var(--accent-color-whitetext);
+}

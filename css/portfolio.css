@@ -1,0 +1,211 @@
+:root {
+    --accent-color-gray: #F5F4FA;
+    --accent-color-blue: #2196F3;
+    --accent-color-dark: #2F303A;
+    --accent-color-darktext: #212121;
+    --accent-color-whitetext: #FFFFFF;
+    --accent-color-graytext: #757575;
+}
+
+/*
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-link-portfolio {
+    color: var(--accent-color-blue);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header-link-mail {
+    color: var(--accent-color-blue);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header-link-tel {
+    color: var(--accent-color-graytext);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header-link {
+    color: var(--accent-color-darktext);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.main-button {
+    background-color: var(--accent-color-gray);
+    color: var(--accent-color-darktext);
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.main-button-all {
+    background-color: var(--accent-color-blue);
+    color: var(--accent-color-whitetext);
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.fotocard-title {
+    color: var(--accent-color-darktext);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.fotocard-text {
+    color: var(--accent-color-graytext);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.footer-house-address {
+    color: var(--accent-color-whitetext);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer-mail {
+    color: var(--accent-color-whitetext);
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.6;
+    line-height: 1.71;
+}
+
+.footer-phone-number {
+    color: var(--accent-color-whitetext);
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.6;
+    line-height: 1.71;
+}
+
+.footer {
+    background-color: var(--accent-color-dark);
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    padding-right: 93px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.header-link {
+    padding-right: 50px;
+}
+
+.header-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header-link-mail {
+    padding-right: 50px;
+}
+
+#contact {
+    padding-right: 304px;
+}
+
+.fotocard-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.fotocard-figure {
+    margin: 0;
+    width: 370px;
+    background-color: var(--accent-color-whitetext);
+    margin-bottom: 30px;
+}
+
+.fotocard-figure img {
+    width: 100%;
+}
+
+.footer-div {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main-button-section-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.main-button-section {
+    margin-top: 94px;
+    margin-bottom: 34px;
+}
+
+.footer {
+    margin-top: 60px;
+}
+
+.fotocard-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+}
+
+.fotocard-figure {
+    flex-basis: calc((100% - 60px)/3);
+    background-color: rgb(255, 255, 255);
+}
+
+.main-button {
+    margin-left: 8px;
+}
+
+header {
+    border-bottom-color: #ECECEC;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.fotocard-figure {
+    outline: 1px solid #ECECEC;
+}
